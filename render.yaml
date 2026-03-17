@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: python-chat-server
+    runtime: python
+    buildCommand: ""
+    startCommand: python server.py
